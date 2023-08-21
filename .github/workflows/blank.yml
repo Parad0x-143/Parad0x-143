@@ -46,3 +46,11 @@ jobs:
           rm commit_mesg.txt
           git add . && git commit -sm "$COMMIT_MESSAGE"
           git push origin A13
+          
+- name: Gatsby CLI wrapper on node12
+  # You may pin to the exact commit or the version.
+  # uses: theWhiteWulfy/gatsby-cli-github-action@ae7b3bcc05f4e8ad3f53105cb7b19f9859619a55
+  uses: theWhiteWulfy/gatsby-cli-github-action@2.0.c
+  with:
+    # Arguments to pass to Gatsby CLI
+    gatsby-arg: # default is build
