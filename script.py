@@ -1,5 +1,5 @@
 import telegram
-from telegram.ext import Updater, MessageHandler, Filters
+from telegram.ext import Updater, MessageHandler
 
 # Replace 'YOUR_API_TOKEN' with the token you received from BotFather
 API_TOKEN = '6108248549:AAEe9VC1Tt_-O_AZYg9W28UdnyEQfAvSBU0'
